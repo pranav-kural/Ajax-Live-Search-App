@@ -2,16 +2,19 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" width="device-width=1,initial-scale=1">
         <title>AJAX Search App</title>
+        <link href="https://fonts.googleapis.com/css?family=Itim|Shrikhand" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/mystyles.css" media="screen" title="no title">
     </head>
     <body>
-       <div id="searcharea">
+       <div id="searcharea" class="fullSearchBox">
          <label for="search">Live search</label>
          <p>Enter the name or info about a speaker</p>
-         <input type="search" name="search" id="search" placeholder="name or info">
+         <input type="search" name="search" id="search" placeholder="name or info" class="fullInputBox">
        </div>
        <div id="update"></div>
+       <div id="footer"><p>Made with 💜 by Pranav Kural</p></div>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="assets/js/app.js"></script>
     </body>
